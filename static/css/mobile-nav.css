@@ -1,0 +1,2 @@
+@import url('responsive.css');
+.mobile-nav{display:none}@media(max-width:750px){body{padding-bottom:72px}.mobile-nav{display:flex;position:fixed;bottom:10px;right:4%;left:4%;z-index:30;justify-content:space-around;background:#35312df2;color:#fff;border:1px solid #ffffff25;border-radius:20px;padding:8px 4px;box-shadow:0 12px 28px #0004;backdrop-filter:blur(12px)}.mobile-nav a{font-size:10px;text-align:center;display:flex;flex-direction:column;line-height:1.2;gap:3px}.mobile-nav span{font-size:18px;color:#d8c3b2}}

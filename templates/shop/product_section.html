@@ -1,0 +1,1 @@
+<section class="section reveal"><div class="section-title"><i>{{eyebrow}}</i><h2>{{title}}</h2><a href="{% url 'shop:products' %}">همه محصولات ←</a></div><div class="product-grid">{% for product in products %}{% include 'shop/product_card.html' %}{% endfor %}</div></section>

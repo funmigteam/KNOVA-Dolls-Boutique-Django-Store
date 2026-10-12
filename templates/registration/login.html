@@ -1,0 +1,1 @@
+{% extends 'shop/base.html' %}{% block content %}<main class="auth"><i>خوش برگشتی</i><h1>ورود به KNOVA</h1><form method="post" class="pretty-form">{% csrf_token %}{{form.as_p}}<button class="button full">ورود</button></form><p><a href="{% url 'shop:password_reset' %}">رمز را فراموش کرده‌اید؟</a> · <a href="{% url 'shop:register' %}">ساخت حساب</a></p></main>{% endblock %}

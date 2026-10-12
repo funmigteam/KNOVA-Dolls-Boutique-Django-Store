@@ -1,0 +1,1 @@
+{% extends 'shop/base.html' %}{% block content %}<main class="auth"><i>به جمع ما بپیوندید</i><h1>حساب تازه</h1><form method="post" class="pretty-form">{% csrf_token %}{% for f in form %}<label>{{f.label}}{{f}}{{f.errors}}</label>{% endfor %}<button class="button full">ثبت‌نام</button></form></main>{% endblock %}
